@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Header-Start----------------------------------------------------- */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-0,
+.header-2 {
+  margin: 0px 100px;
+}
+
+.header-0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-0 h1,
+.header-0 h4 {
+  margin: 0;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header ul li {
+  list-style: none;
+  padding: 15px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-2 div input {
+  border: none;
+  padding: 5px 5px;
+  height: 100%;
+  color: black;
+}
+#Search-Conteiner {
+  border-bottom: 2px solid black;
+  padding: 5px;
+}
+.Header-2-0 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 20px;
+}
+.header-2 i {
+  font-size: 18px;
+}
+
+#Photo-div {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+/* Header-End----------------------------------------------------------- */
+
+/* Card_Section-sStart_--------------------------------------------------------------- */
+
+.Card-Section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Card-Container {
+  margin-top: 80px;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.Cards {
+  width: 300px;
+}
+.Cards p {
+  text-align: center;
+}
+.Cards img {
+  width: 250px;
+}
+
+.Card-Button {
+  position: absolute;
+  color: white;
+  padding: 5px 7px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.About {
+  width: 100%;
+  height: 50vh;
+  background-color: #e8e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About p {
+  margin: 0px;
+  width: 35%;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Card-Section-End------------------------------------------------------------ */
+
+/* Footer-Start------------------------------------------------------ */
+
+Footer {
+  width: 100%;
+  background-color: black;
+}
+
+.Footer-Container {
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Footer-Container div {
+  display: flex;
+  width: 50%;
+}
+
+#Footer-Container-0 div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 30px;
+}
+#Footer-Container-0 div p {
+  margin: 5px;
+  font-weight: 700;
+}
+
+#Footer-Container-1 {
+  padding: 25px;
+  width: 40%;
+}
+
+#Footer-Container-1 form {
+  display: flex;
+  flex-direction: column;
+}
+#Footer-Container-1 form div #Email-Input {
+  padding: 10px 0px;
+  background-color: black;
+  border: none;
+  border-bottom: white 2px solid;
+  width: 790px;
+}
+#Footer-Container-1 form div button {
+  width: 350px;
+  margin-left: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.Footer-Bottom {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  background-color: #ccc;
+}
+.Footer-Bottom p {
+  color: black;
+  /* padding: 25px; */
+  /* padding: 20px 0px; */
+  text-align: center;
+  font-weight: bold;
+}
+
+#Footer-Button {
+  transition: all 0.2s ease;
+  /* transition-duration: 0.5s; */
+}
+
+#Footer-Button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}

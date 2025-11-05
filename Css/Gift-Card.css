@@ -1,0 +1,112 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-items: center; */
+  align-items: center;
+}
+
+.Gift-Card-Container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  margin: 80px 0px;
+}
+.Gift-Card-Container p {
+  margin: 15px 0px;
+}
+.Gift-Card-Container h1 {
+  margin: 0px;
+  font-size: 40px;
+}
+.Gift-Card-Container h3 {
+  margin: 25px 0px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.Gift-Card-Container img {
+  width: 500px;
+  height: 500px;
+}
+.Gift-Card-Container div form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Gift-Card-Container ul {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+.Gift-Card-Container ul li {
+  list-style: none;
+  width: 80px;
+  height: 40px;
+  padding: 0px;
+  text-align: center;
+  margin: 0px 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Gift-Card-Container ul li p {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 19px;
+}
+.Quantity-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  width: fit-content;
+}
+
+.Quantity-Container p,
+.Quantity-Container i {
+  margin: 5px 10px;
+}
+.Form-Buttons {
+  width: 100%;
+}
+
+.Form-Buttons button {
+  padding: 10px 50px;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid black;
+  width: 254px;
+}
+.Gift-Card-Container input {
+  padding: 10px;
+}
+.Gift-Card-Container label {
+  padding: 7px 0px;
+}
+#Message-box {
+  height: 200px;
+}
+
+.Submit-Buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.Submit-Buttons button {
+  margin: 5px 0px;
+  height: 50px;
+  color: white;
+  font-size: 19px;
+  background-color: black;
+}
+#Buy-Now-Button {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  font-weight: 400;
+}

@@ -1,0 +1,51 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  width: 60%;
+  border-left: 2px dashed black;
+  border-right: 2px dashed black;
+  padding: 0px 100px;
+}
+
+.Contact-Form {
+  margin: 80px 0px;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Contact-Form h1,
+.Contact-Form div h3,
+.Contact-Form div p {
+  text-align: center;
+}
+.Contact-Info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Contact-Info input {
+  padding: 7px 0px;
+}
+
+.Contact-Info label {
+  color: black;
+  padding: 10px 0px;
+}
+
+#Message-Box-0 {
+  height: 200px;
+}
+
+form button {
+  padding: 10px;
+  margin: 15px 0px;
+  color: white;
+  background-color: black;
+  font-size: 19px;
+}
