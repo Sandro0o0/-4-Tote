@@ -97,16 +97,28 @@ main {
   flex-direction: column;
 }
 
+.Submit-Buttons button:hover{
+  background-color: white;
+  color: black;
+   
+}
+.Submit-Buttons #Buy-Now-Button:hover{
+  background-color: black;
+  color: white;
+}
+
 .Submit-Buttons button {
   margin: 5px 0px;
   height: 50px;
   color: white;
   font-size: 19px;
   background-color: black;
+  transition: 0.2s all ease ;
 }
 #Buy-Now-Button {
   background-color: white;
   border: 2px solid black;
   color: black;
   font-weight: 400;
+  transition: 0.2s all ease;
 }
